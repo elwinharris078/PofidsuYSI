@@ -14,8 +14,6 @@ jobs:
     name: Jenkinsfile Checker
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
       - name: Validate Jenkinsfile
         shell: bash
         run: |
